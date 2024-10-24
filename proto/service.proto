@@ -1,0 +1,10 @@
+syntax = "proto3";
+package pb;
+
+import "rpc_create_account.proto";
+
+option go_package = "../pb";
+
+service BonusService {
+    rpc CreateAccount (CreateAccountRequest) returns (CreateAccountResponse) {}
+}
