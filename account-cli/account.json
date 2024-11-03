@@ -1,0 +1,11 @@
+{
+    "account_id": "123qwerty",
+    "user": [
+        {
+            "user_id": "123user",
+            "full_name": "Vasya V",
+            "email": "vasya333@mail.ru"
+        }
+    ],
+    "balance": 10000
+}
