@@ -16,5 +16,5 @@ message CreateAccountRequest {
 
 message CreateAccountResponse {
     bool created = 1;
-    Account account = 2;
+    CreateAccountRequest account = 2;
 }
